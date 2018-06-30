@@ -1,7 +1,7 @@
 public class MainClass {
 
     public static void main (String[] args) {
-        sout
+
         /*Employee[] perEmployee = new Employee[5];
         perEmployee = createEmployee(perEmployee);
         for (int i=0; i<perEmployee.length; i++) {
