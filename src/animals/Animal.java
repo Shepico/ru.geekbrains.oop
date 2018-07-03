@@ -12,7 +12,7 @@ abstract class Animal {
 
     abstract void swim(int distance);
 
-    public void task (String name, String motion, float distance, boolean luck) {
+    void task (String name, String motion, float distance, boolean luck) {
         System.out.println(name+"." + motion + "(" + distance+")-->результат:"+motion+":"+luck);
     }
 }
