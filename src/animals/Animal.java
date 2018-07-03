@@ -6,10 +6,13 @@ abstract class Animal {
     int longRun;
     int longSwim;
 
-    abstract boolean run();
+    abstract void run(int distance);
 
-    abstract boolean swim();
+    abstract void jumpOver(int distance);
 
-    abstract boolean jumpOver();
+    abstract void swim(int distance);
 
+    public void task (String name, String motion, float distance, boolean luck) {
+        System.out.println(name+"." + motion + "(" + distance+")-->результат:"+motion+":"+luck);
+    }
 }
