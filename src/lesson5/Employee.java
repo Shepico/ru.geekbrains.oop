@@ -1,3 +1,5 @@
+package lesson5;
+
 public class Employee {
     private String fio;
     private String posWork;
