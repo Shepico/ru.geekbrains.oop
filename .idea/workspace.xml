@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7a61a63-afd7-43bc-b3f9-bafa5729e9f5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lesson5/MainClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ru.geekbrains.oop/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ru.geekbrains.oop/animals/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson5/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson6/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson6/animals/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/animals/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson6/animals/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/animals/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson6/animals/Dog.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="out/" />
+    <ignored path=".idea/" />
+    <ignored mask="*.iml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lesson6/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -32,6 +26,11 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ru.geekbrains.oop.iml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ru.geekbrains.oop.iml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -62,6 +61,7 @@
         <option value="$PROJECT_DIR$/src/lesson6/animals/Dog.java" />
         <option value="$PROJECT_DIR$/src/lesson5/MainClass.java" />
         <option value="$PROJECT_DIR$/src/lesson6/MainClass.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -104,9 +104,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -233,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530617346590</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="навел порядок по урокам. Разложил по пакетам">
+      <created>1530688507608</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1530688507608</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -245,14 +254,14 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.50078124" side_tool="true" visible="true" weight="0.32996634" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32996634" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49921876" visible="true" weight="0.32996634" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32928064" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24921875" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24921875" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32996634" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -276,7 +285,8 @@
     <MESSAGE value="lesson 6" />
     <MESSAGE value="Урок 6. Созадны классы и запущен main" />
     <MESSAGE value="Урок 6. изменил видмость метода task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Урок 6. изменил видмость метода task" />
+    <MESSAGE value="навел порядок по урокам. Разложил по пакетам" />
+    <option name="LAST_COMMIT_MESSAGE" value="навел порядок по урокам. Разложил по пакетам" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -462,6 +472,16 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ru.geekbrains.oop.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
